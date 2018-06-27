@@ -4,7 +4,8 @@
   "license": "MIT",
   "scripts": {
     "type-check": "tsc --noEmit",
-    "build": "tsc --emitDeclarationOnly && babel src --out-dir dist --extensions \".ts,.tsx\""
+    "build":
+      "tsc --emitDeclarationOnly && babel src --out-dir dist --extensions \".ts,.tsx\""
   },
   "devDependencies": {
     "@babel/cli": "^7.0.0-beta.49",
@@ -16,9 +17,9 @@
     "typescript": "^2.9.1"
   },
   "dependencies": {
-    "@lucidogen/builder": "^1.0.0-1530005540469",
-    "babel-plugin-cerebral": "^1.0.0-1528907706035",
-    "cerebral": "^5.0.0-1528907706035",
+    "@lucidogen/builder": "next",
+    "babel-plugin-cerebral": "next",
+    "cerebral": "next",
     "moment": "^2.22.2"
   }
 }
